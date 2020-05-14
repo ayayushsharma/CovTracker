@@ -10,9 +10,9 @@
       <div class="login-box">        <!--Main div -->
         <h1>Login</h1>
         
-	  <form action="process.php" method="POST" >             <!--Links file to process.php to evaluate-->
+      <form action="process.php" method="POST" >             <!--Links file to process.php to evaluate-->
         
-		<div class="textbox">
+	<div class="textbox">
           <i class="fa fa-user" aria-hidden="true"></i>
           <input type="text" placeholder ="Authoriser Id" name="uname">      <!--I/p Username-->
         </div>
@@ -22,13 +22,11 @@
           <input type="password" placeholder ="Password" name="paswd">       <!--I/p Password-->
         </div>
         
-		<input class="btn"  type="submit" value="Proceed Ahead">             <!--Proceed to process-->
+	<input class="btn"  type="submit" value="Proceed Ahead">             <!--Proceed to process-->
 	 
-   	 </form> 
-		
-		<br><br>       
+      </form> 
+	<br><br>       
       </div>                  <!--eof main div-->
-  <body>
 
   </body>
 </html>
