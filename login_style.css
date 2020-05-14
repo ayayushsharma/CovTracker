@@ -1,0 +1,65 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+
+body{                                    /*Designs main body*/
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url(virus.jpg) no-repeat; /*Puts virus.jpg in backgrnd*/
+  background-color: #9b1818
+  background-size: cover;
+}
+.login-box{
+  width: 500px;                         /*Main login box of 500 pixels*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-60% , -60%);
+  color: #070707;
+  background-color: #ffffff;
+  margin-left: auto;                    /*Centers it to the webpage*/
+  margin-right: auto;                    
+}
+.login-box h1{                          /*Designs "Login" header*/
+  font-size: 60px;                     
+  border-bottom: 8px solid #bfd414;
+  margin-bottom: 60px;
+  padding: 13px 0;
+  text-align: center;
+}
+.textbox{                               /*Designs textboxes*/
+  width: 80%;
+  overflow: hidden;
+  font-size: 30px;
+  padding: 10px 0;
+  margin: 10px 0;
+  border-bottom: 3px solid #bfd414;
+  margin-left: auto;
+  margin-right: auto;
+   background-color: #99ff99;
+}
+.textbox i{                      /*Designs the logo of paswd and uname*/
+ width: 40px;
+ float: left;
+ text-align: center;
+}
+.textbox input{                  /*Designs input tab*/
+  border: none;
+  outline: none;
+  background-color: #99ff99;
+  color: black;
+  font-size: 22px;
+  width: 200px;
+  float: left;
+  margin: 0 10px;
+}
+.btn{                            /*Designs submit button*/
+  width: 80%;
+  background: none;
+  border: 2px solid #4caf50;
+  color: black;
+  padding: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 10%;
+}
