@@ -1,0 +1,24 @@
+table { margin:1em auto; border-collapse:collapse; background-image: url("map.jpg"); }
+td {
+    width:69px; height:69px;
+    border:1px solid #ccc;
+    text-align:center;
+    font-family:sans-serif; font-size:13px;
+	opacity: 0.40;
+}
+#danger {
+	width:69px; height:69px;
+    background-color:red;
+	text-align:center;
+    font-weight:bold; color:orange;
+	opacity: 0.5;
+}
+
+p {  width: 500px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+    border-bottom: 8px solid #bfd414;} 

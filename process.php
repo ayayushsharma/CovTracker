@@ -15,10 +15,13 @@
    <div id="textbox">
     <?php                                            
       $uname = $_POST["uname"];                      //Store username
-	  $paswd = $_POST['paswd'];                      //Store password
+	  $paswd = $_POST["paswd"];                      //Store password
 	  
 	  if( $uname == "admin" && $paswd == "123" )     //checks condition
-		  echo "Hello admin. This functionality will be added." ;              //Change this to hyperlink -> editing page
+	  { 
+     	  echo "Hello admin. " ;
+		  echo '<a href="edit.php">Click here to Continue</a>';
+	  }
 	  else
 		  echo "Incorrect credentials" ;
     ?> 
