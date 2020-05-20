@@ -25,7 +25,7 @@
       $uname = $_POST["uname"];                      //Store username
 	  $paswd = $_POST["paswd"];                      //Store password
 	  
-	  $conn = new mysqli('localhost', 'root', '123', 'gridlayout' );
+	  $conn = new mysqli('localhost', 'admin', '1234', 'grid' );
 	  if($conn->connect_error){
 		  die("Failed to connect");
 	  }
