@@ -16,7 +16,9 @@
     <br>
 	 <h1 style="color: blue";>Login Processed</h1>   <!--Header-->
  
-   
+    <a href="home.php" class="link">  Homepage</a>
+    
+	
    <div id="textbox">
     <?php        
      $seskey = $_SESSION['key'];

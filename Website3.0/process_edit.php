@@ -34,7 +34,7 @@ session_start();
           $change= "UPDATE grid SET color=0 WHERE id=$edit";
           
 		  if(mysqli_query($connection, $change))
-			  echo 'Update Successful.<p><a href="map.php"> Reirect to the Map </a></p>';
+			  echo 'Update Successful.<p><a href="map.php"> Redirect to the Map </a></p>';
 		  else
 			  echo "Update Unsuccessful";
 		  }

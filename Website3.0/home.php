@@ -36,20 +36,18 @@ $_SESSION['key']='0';
 					<content>
 						<p>The government has specified the red ,orange and green zone districts. But do you really know if your locality is safe or not.  </p>
 						<p>This is where our website helps you . We tell you whether your neighbourhood is safe from coronavirus or not., whether you should stay at home or can go out safely to buy neccesary things</p>
-            						<h2>Know where are covid affected areas in your city.</h2>
-						<p><button>Enter city name</p>
+            						<h2>Know the covid affected areas in your city.</h2>
 					</content>
 					
 				</article>
 
 				<article class="content-2">	
 					<header>
-						<h2>Number of corona virus cases </a></h2>
-          </header>
+					<iframe src="https://ourworldindata.org/grapher/total-deaths-and-cases-covid-19?year=2020-05-19&time=2020-01-14&country=IND&region=Asia" style="width: 650px; height: 400px; border: 1px none;"></iframe>
+					</header>
 					
 					<content>
-            <p><a href="https://www.worldometers.info/coronavirus/">In the world</a></p>
-            <p><a href="https://www.coronatracker.com/country/india/">In India</a></p>
+
             					
 					</content>
 				
@@ -75,7 +73,15 @@ $_SESSION['key']='0';
 					<h2>Know more about coronavirus</h2>
 					<p><a href="https://www.who.int/health-topics/coronavirus#tab=tab_1">click here to know more</a></p>
 				    </article>
-				</aside>	
+				</aside>
+                
+                <aside class="sidebar-4">
+					<article>
+					<h2>Live Corona counter</h2>
+                    <p><a href="https://www.worldometers.info/coronavirus/">In the world</a></p>
+                    <p><a href="https://www.coronatracker.com/country/india/">In India</a></p>
+			        </article>
+				</aside>				
 	</div>
 	
 	<footer class="footer">
