@@ -14,7 +14,8 @@
 	   
 	  <div class="login-box">        <!--Main div -->
         <h1>Login</h1>
-        
+         <a href="home.php" class="link">  Homepage</a>
+        <br> 
 		<?php
 		$seskey = $_SESSION["key"];
 		if( $seskey == '1'){
