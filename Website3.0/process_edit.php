@@ -24,14 +24,14 @@ session_start();
 	  if( $edit>=1 && $edit<=100) 
 		  
 		  { 
-		  $connection = new mysqli("localhost", "root", "123", "gridlayout");     //Connecting mysql databases to php
+		  $connection = new mysqli("localhost", "admin", "1234", "grid");     //Connecting mysql databases to php
           if ($connection->connect_error) die($connection->connect_error); 
 
-          $result = $connection->query("SELECT * FROM grid");                // holding the table first in $result
+          $result = $connection->query("SELECT * FROM first");                // holding the table first in $result
  
           if (!$result) die($connection->error);
 		
-          $change= "UPDATE grid SET color=0 WHERE id=$edit";
+          $change= "UPDATE first SET status=0 WHERE id=$edit";
           
 		  if(mysqli_query($connection, $change))
 			  echo 'Update Successful.<p><a href="map.php"> Reirect to the Map </a></p>';
