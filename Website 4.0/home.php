@@ -48,12 +48,11 @@ $_SESSION['key']='0';
 
 				<article class="content-2">	
 					<header>
-						<h2>Number of corona virus cases </a></h2>
-          </header>
+					<iframe src="https://ourworldindata.org/grapher/total-deaths-and-cases-covid-19?year=2020-05-19&time=2020-01-14&country=IND&region=Asia" style="width: 650px; height: 400px; border: 1px none;"></iframe>
+					</header>
 					
 					<content>
-            <p><a href="https://www.worldometers.info/coronavirus/">In the world</a></p>
-            <p><a href="https://www.coronatracker.com/country/india/">In India</a></p>
+
             					
 					</content>
 				
@@ -79,7 +78,15 @@ $_SESSION['key']='0';
 					<h2>Know more about coronavirus</h2>
 					<p><a href="https://www.who.int/health-topics/coronavirus#tab=tab_1">click here to know more</a></p>
 				    </article>
-				</aside>	
+				</aside>
+                
+                <aside class="sidebar-4">
+					<article>
+					<h2>Live Corona counter</h2>
+                    <p><a href="https://www.worldometers.info/coronavirus/">In the world</a></p>
+                    <p><a href="https://www.coronatracker.com/country/india/">In India</a></p>
+			        </article>
+				</aside>				
 	</div>
 	
 	<footer class="footer">
