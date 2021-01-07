@@ -1,3 +1,8 @@
+<?php 
+	session_start();	
+	$seskey= $_SESSION['key'];
+?>
+
 <!DOCTYPE html>
 <html> 
  <head>
@@ -13,20 +18,54 @@
  
    
    <div id="textbox">
-    <?php                                            
+    <?php        
+     $seskey = $_SESSION['key'];
+	 
+	 if( $seskey == '0' ){
       $uname = $_POST["uname"];                      //Store username
 	  $paswd = $_POST["paswd"];                      //Store password
 	  
-	  if( $uname == "admin" && $paswd == "123" )     //checks condition
-	  { 
-     	  echo "Hello admin. " ;
-		  echo '<a href="edit.php">Click here to Continue</a>';
+	  $conn = new mysqli('localhost', 'admin', '1234', 'grid' );
+	  if($conn->connect_error){
+		  die("Failed to connect");
 	  }
-	  else
+	  else{
+		if($content = $conn->query("SELECT * FROM login")){
+		  $flag=0;
+		  
+		  while($element = $content->fetch_assoc()){ 
+		    if( $uname == $element['user_id'] && $paswd == $element['paswd'] ){     //checks condition
+		    $flag=1;
+			$seskey='1';
+			}
+	    }		
+	      
+		if($flag==1){
+		  echo "Hello admin. " ;                                           //lets you edit
+		  echo '<a href="edit.php">Click here to Continue</a>';
+	    }
+	    else{
 		  echo "Incorrect credentials" ;
-    ?> 
+	    }
+        }
+	  }
+	 }
+     
+	 else{
+		echo "Hello admin. " ;                                           //lets you edit
+		echo '<a href="edit.php">Click here to Continue</a>';
+     }
+     
+	 $_SESSION["key"] = $seskey;	 
+    
+	?> 
 	 <br><br>
    </div> 
+  
+  </div>         <!--eof main div-->
+
+  </body>
+</html>
   
   </div>         <!--eof main div-->
 

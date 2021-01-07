@@ -1,3 +1,8 @@
+<?php
+// Start the session
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -17,16 +22,12 @@
           <input type="number" placeholder="Square number" name="edit">      <!--I/p Square number to be edited-->
         </div>
 
-        <div class="textbox">
-          <i class="fa fa-lock" aria-hidden="true"></i>
-          <input type="password" placeholder ="Password" name="paswd">       <!--I/p Password-->
-        </div>
         
 	<input class="btn"  type="submit" value="Proceed Ahead">             <!--Proceed to process-->
 	 
       </form> 
 	<br><br>       
-      </div>               <!--eof main div-->
+      </div>                  <!--eof main div-->
 
   </body>
 </html>

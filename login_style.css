@@ -27,6 +27,19 @@ body{                                    /*Designs main body*/
   padding: 13px 0;
   text-align: center;
 }
+.link {
+    background-color: #1c87c9;      /*Designs homepage link*/
+	border: none;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-align:center;
+}
 .textbox{                               /*Designs textboxes*/
   width: 80%;
   overflow: hidden;

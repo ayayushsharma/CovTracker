@@ -23,7 +23,7 @@
 }
 
 body {
-	background: url("corona.jpg") no-repeat center center fixed; 
+	background: url("virus.jpg") no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -204,7 +204,19 @@ a:hover, a:active {
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;	
-	  background-color: rgba(255,255,255,0.8);	padding: 2% 3%;
+	background-color: rgba(255,255,255,0.8);	padding: 2% 3%;
+	margin-bottom: 2%;  
+}
+
+.sidebar-4 {
+	width: 24%;
+	float: left;
+	margin-left: 2%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	background-color: rgba(255,255,255,0.8);	padding: 2% 3%;
+	margin-bottom: 2%;  
 }
 
 .footer {

@@ -6,4 +6,3 @@ Note_1- Website functional only with support of .php localhost (eg. XAMPP) and r
 Note_2- Website 3.0 is the first complete functioning form of website. Still needs addition of map and related database processing
 
 Note_3- Website 4.0 is the last updated website
-

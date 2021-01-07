@@ -1,3 +1,7 @@
+<?php 
+	session_start();	
+?>
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -6,13 +10,24 @@
     <link rel="stylesheet" href="login_style.css">
   </head>
   
-  <body>
-      <div class="login-box">        <!--Main div -->
+  <body>	
+	   
+	  <div class="login-box">        <!--Main div -->
         <h1>Login</h1>
-        
+         <a href="home.php" class="link">  Homepage</a>
+        <br> 
+		<?php
+		$seskey = $_SESSION["key"];
+		if( $seskey == '1'){
+		  echo "You're already an admin. ";
+		  echo '<a href="edit.php">Click here to Edit</a>';	
+		}
+        ?>
+		  
+		 
       <form action="process.php" method="POST" >             <!--Links file to process.php to evaluate-->
         
-	<div class="textbox">
+	  <div class="textbox">
           <i class="fa fa-user" aria-hidden="true"></i>
           <input type="text" placeholder ="Authoriser Id" name="uname">      <!--I/p Username-->
         </div>
