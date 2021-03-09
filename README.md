@@ -9,3 +9,5 @@ Made by Ayush Sharma, Abhigyan Tiwari, Yashendu Paresh and Aryan Khandelwal unde
 
 - Version 4.0 is the last updated website
 
+## Note 
+* Website functional only with support of .php localhost (eg. XAMPP) and related MySQL support.
