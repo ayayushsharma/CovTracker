@@ -11,3 +11,9 @@ Made by Ayush Sharma, Abhigyan Tiwari, Yashendu Paresh and Aryan Khandelwal unde
 
 ## Note 
 * Website functional only with support of .php localhost (eg. XAMPP) and related MySQL support.
+
+# Contributors
+* [Abhigyan Tiwari](https://github.com/abhigyantiwari42)
+* [Aryan Khandelwal](https://github.com/Ark2307)
+* [Ayush Sharma](https://github.com/ayayushsharma)
+* [Yashendu](https://github.com/Spirit-ofJoy)
