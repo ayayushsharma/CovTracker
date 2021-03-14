@@ -7,5 +7,5 @@ Made by Ayush Sharma, Abhigyan Tiwari, Yashendu Paresh and Aryan Khandelwal unde
 
 - Version 3.0 is the first complete functioning form of website. Still needs addition of map and related database processing
 
-- Version 4.0 is the last updated version website
+- Version 4.0 is the last updated version of the website
 
